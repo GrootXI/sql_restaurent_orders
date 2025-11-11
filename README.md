@@ -1,1 +1,7 @@
-# I dig into the customer data to see which menu items are doing well/not well and what the top customers seem to like best
+# Explore the menu_items table to get an idea of what's on the new menu
+
+**View the menu_items table.
+'''sql
+SELECT *
+FROM menu_items;
+''''
