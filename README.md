@@ -1,3 +1,41 @@
+##  Menu Performance Analysis SQL Project
+
+## Project Overview
+**Project Title:** Menu Performance Analysis<br>
+**Database:** restaurant_db <br>
+<br>
+This project analyzes customer and order data to understand how the cafe’s newly launched menu is performing. Identify which menu items sell the most and the least, determine revenue-driving categories, and discover what the top-spending customers prefer. This project helps develop SQL skills for real business analysis, including joins, aggregations, filtering, and insight generation.
+
+## Objectives
+1. Explore the menu_items table to understand the full list of items included in the new menu.
+
+2. Analyze the order_details table to review all collected order-level data and understand customer purchasing behavior.
+
+3. Combine both tables to evaluate how customers are reacting to the new menu, including identifying popular items, underperforming items, and spending patterns.
+
+## Dataset Overview
+
+**The database contains two key tables:**
+
+**1. menu_items**
+
+Contains information about each dish offered on the new menu.<br>
+**Key columns:**<br>
+menu_item_id<br>
+item_name<br>
+category<br>
+price
+
+**2. order_details**
+
+Contains customer order transaction data.<br>
+**Key columns:**<br>
+order_id<br>
+item_id<br>
+quantity<br>
+order_date
+
+
 ## Explore the menu_items table to get an idea of what's on the new menu
 
 1. **View the menu_items table.**
@@ -168,3 +206,12 @@ LEFT JOIN menu_items AS m
 WHERE order_id IN (440, 2075, 1957, 330, 2675)
 GROUP BY m.category, o.order_Id
 ```
+## Key Insights 
+
+
+**Italian Cuisine:** Top revenue contributor; appears in all high-value orders.<br>
+**Asian & Mexican Cuisines:** Consistently in demand; steady performers.<br>
+**American Items:** Appear in smaller quantities; act as complementary dishes.<br>
+**Multi-Cuisine Orders:** Most high-value orders include 3–4 cuisines; indicates variety preference.<br>
+**Customer Behavior:** Menu variety drives higher order value.<br>
+**Opportunities:** Focus marketing and promotions on Italian, Asian, and Mexican categories.
