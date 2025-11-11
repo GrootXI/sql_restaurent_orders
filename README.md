@@ -215,3 +215,13 @@ GROUP BY m.category, o.order_Id
 **Multi-Cuisine Orders:** Most high-value orders include 3–4 cuisines; indicates variety preference.<br>
 **Customer Behavior:** Menu variety drives higher order value.<br>
 **Opportunities:** Focus marketing and promotions on Italian, Asian, and Mexican categories.
+
+
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
+
+## 🌟 About Me
+
+Hi there! I'm **Md Amzad Hossain**. Specialize in turning raw data into meaningful insights that help drive business decisions. 
+
